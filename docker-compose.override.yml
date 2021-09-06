@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+  postgres:
+    environment:
+      - POSTGRES_USER=api
+      - POSTGRES_PASSWORD=development_pass
+      - POSTGRES_MULTIPLE_DATABASES="user-hobbies","user-hobbies-testing"
+    volumes:
+      - ./docker-utils:/docker-entrypoint-initdb.d
+      - user-hobbies_data:/data/postgres
+    ports:
+      - 5432:5432
+volumes:
+  user-hobbies_data: {}
