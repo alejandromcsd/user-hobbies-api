@@ -56,5 +56,5 @@ $ npm run test
 - Password hashing on user creation
 - **Authentication**: not part of the use cases covered. For authentication, in real-scenario, we might want to look into an strategy that works well with NestJS. For instance an auth service/module like Passport + bearer tokens (JWT).
 - **Authorization**: app illustrates a basic authZ logic for update hobbies (must be same user). For restricting access to records/resources, we could exlore something like CASL: https://docs.nestjs.com/security/authorization#integrating-casl
-- Logging and configuration
+- Logging and configuration.
 - Unit tests and e2e tests: app includes basic unit tests for controllers and services. In real scenario, increase coverage to 100%. Also, resolve challenges when writing unit tests for Knex (mocking vs. using real testing db + migrations).
