@@ -1,4 +1,4 @@
-# Backend API for a small “User Hobbies” application
+# Production-ready NestJS/Typescript/Postgres/Docker
 
 ## Use cases
 
