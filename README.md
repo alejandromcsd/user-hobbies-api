@@ -1,4 +1,4 @@
-# Production-ready NestJS/Typescript/Postgres/Docker
+# Production-ready NestJS, Typescript, Postgres, Docker API Sample
 
 ## Use cases
 
